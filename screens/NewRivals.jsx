@@ -4,9 +4,11 @@ import styles from "./newRivals.style";
 import {
   Ionicons,
 } from "@expo/vector-icons";
+import { COLORS } from "../constants";
+import { ProductList } from "../components";
 
 
-export default function NewRivals() {
+export default function NewRivals({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
@@ -19,6 +21,7 @@ export default function NewRivals() {
           </TouchableOpacity>
           <Text style={styles.heading}> Products</Text>
         </View>
+        <ProductList/>
       </View>
     </SafeAreaView>
   );

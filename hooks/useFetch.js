@@ -34,3 +34,6 @@ const useFetch = () => {
     reFetch
   };
 };
+
+
+export default useFetch;

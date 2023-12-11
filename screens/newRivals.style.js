@@ -20,11 +20,15 @@ const styles = StyleSheet.create({
         position : 'absolute',
         backgroundColor  : COLORS.primary,
         borderRadius : SIZES.large,
-        top : SIZES.large,
-        zIndex : 999
+        top : SIZES.large+20,
+        zIndex : 999,
+        marginHorizontal : SIZES.large,
     },
     heading : {
-        
+        fontFamily : "semiBold",
+        fontSize : SIZES.medium,
+        color : COLORS.lightWhite,
+        marginLeft : 5,
     }
 });
 export default styles;
